@@ -10,7 +10,7 @@
       
       <class name="TestngPractice.DataProvider"/>
       <class name="TestngPractice.LoginTest"/>
-      
+      <class name="TestngPractice.practicegit"/>
     </classes>
   </test>
 </suite>
