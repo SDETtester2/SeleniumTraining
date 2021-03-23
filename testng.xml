@@ -11,6 +11,7 @@
       <class name="TestngPractice.DataProvider"/>
       <class name="TestngPractice.LoginTest"/>
       <class name="TestngPractice.practicegit"/>
+        <class name="TestngPractice.practicegit2"/>
     </classes>
   </test>
 </suite>
