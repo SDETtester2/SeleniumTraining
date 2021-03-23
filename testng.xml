@@ -12,7 +12,7 @@
       <class name="TestngPractice.LoginTest"/>
       <class name="TestngPractice.practicegit"/>
         <class name="TestngPractice.practicegit2"/>
-        <class name="TestngPractice.practicegit3"/>
+     
     </classes>
   </test>
 </suite>
