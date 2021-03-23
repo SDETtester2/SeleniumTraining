@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="59655" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:04:27Z">
+  <suite name="Suite1" duration-ms="66541" started-at="2021-03-23T21:35:46Z" finished-at="2021-03-23T21:36:53Z">
     <groups>
     </groups>
-    <test name="Regression1" duration-ms="59655" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:04:27Z">
+    <test name="Regression1" duration-ms="66541" started-at="2021-03-23T21:35:46Z" finished-at="2021-03-23T21:36:53Z">
       <class name="TestngPractice.DataProvider">
-        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="LaunchDriver" is-config="true" duration-ms="6676" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:03:34Z">
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="LaunchDriver" is-config="true" duration-ms="17623" started-at="2021-03-23T21:35:47Z" finished-at="2021-03-23T21:36:04Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="datatest" duration-ms="11790" started-at="2021-03-20T02:03:34Z" data-provider="register" finished-at="2021-03-20T02:03:46Z">
+        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="datatest" duration-ms="8063" started-at="2021-03-23T21:36:04Z" data-provider="register" finished-at="2021-03-23T21:36:12Z">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datatest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="teardown" is-config="true" duration-ms="733" started-at="2021-03-20T02:03:46Z" finished-at="2021-03-20T02:03:46Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="teardown" is-config="true" duration-ms="527" started-at="2021-03-23T21:36:12Z" finished-at="2021-03-23T21:36:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="LaunchDriver" is-config="true" duration-ms="3121" started-at="2021-03-20T02:03:46Z" finished-at="2021-03-20T02:03:50Z">
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="LaunchDriver" is-config="true" duration-ms="3997" started-at="2021-03-23T21:36:13Z" finished-at="2021-03-23T21:36:17Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="datatest" duration-ms="11751" started-at="2021-03-20T02:03:50Z" data-provider="register" finished-at="2021-03-20T02:04:01Z">
+        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="datatest" duration-ms="12051" started-at="2021-03-23T21:36:17Z" data-provider="register" finished-at="2021-03-23T21:36:29Z">
           <params>
             <param index="0">
               <value>
@@ -65,13 +65,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datatest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="teardown" is-config="true" duration-ms="198" started-at="2021-03-20T02:04:01Z" finished-at="2021-03-20T02:04:01Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@51b279c9]" name="teardown" is-config="true" duration-ms="399" started-at="2021-03-23T21:36:29Z" finished-at="2021-03-23T21:36:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestngPractice.DataProvider -->
+      <class name="TestngPractice.practicegit3">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestngPractice.practicegit3@5e955596]" name="test1" duration-ms="1" started-at="2021-03-23T21:36:53Z" finished-at="2021-03-23T21:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestngPractice.practicegit3 -->
+      <class name="TestngPractice.practicegit2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestngPractice.practicegit2@1cab0bfb]" name="test1" duration-ms="1" started-at="2021-03-23T21:36:53Z" finished-at="2021-03-23T21:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestngPractice.practicegit2 -->
+      <class name="TestngPractice.practicegit">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestngPractice.practicegit@7f416310]" name="test1" duration-ms="1" started-at="2021-03-23T21:36:53Z" finished-at="2021-03-23T21:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestngPractice.practicegit -->
       <class name="TestngPractice.LoginTest">
-        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="LaunchDriver" is-config="true" duration-ms="2702" started-at="2021-03-20T02:04:01Z" finished-at="2021-03-20T02:04:04Z">
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.LoginTest@1ad282e0]" name="LaunchDriver" is-config="true" duration-ms="2691" started-at="2021-03-23T21:36:29Z" finished-at="2021-03-23T21:36:32Z">
           <params>
             <param index="0">
               <value>
@@ -82,11 +100,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchDriver -->
-        <test-method status="PASS" signature="login()[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="login" duration-ms="18377" started-at="2021-03-20T02:04:04Z" finished-at="2021-03-20T02:04:23Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestngPractice.LoginTest@1ad282e0]" name="login" duration-ms="20415" started-at="2021-03-23T21:36:32Z" finished-at="2021-03-23T21:36:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="teardown" is-config="true" duration-ms="4223" started-at="2021-03-20T02:04:23Z" finished-at="2021-03-20T02:04:27Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.LoginTest@1ad282e0]" name="teardown" is-config="true" duration-ms="689" started-at="2021-03-23T21:36:52Z" finished-at="2021-03-23T21:36:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
