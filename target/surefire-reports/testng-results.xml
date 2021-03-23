@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="59655" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:04:27Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="59655" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:04:27Z">
+      <class name="TestngPractice.DataProvider">
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="LaunchDriver" is-config="true" duration-ms="6676" started-at="2021-03-20T02:03:27Z" finished-at="2021-03-20T02:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="datatest" duration-ms="11790" started-at="2021-03-20T02:03:34Z" data-provider="register" finished-at="2021-03-20T02:03:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datatest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="teardown" is-config="true" duration-ms="733" started-at="2021-03-20T02:03:46Z" finished-at="2021-03-20T02:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="LaunchDriver" is-config="true" duration-ms="3121" started-at="2021-03-20T02:03:46Z" finished-at="2021-03-20T02:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method status="PASS" signature="datatest(java.lang.String, java.lang.String)[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="datatest" duration-ms="11751" started-at="2021-03-20T02:03:50Z" data-provider="register" finished-at="2021-03-20T02:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datatest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.DataProvider@4b9e255]" name="teardown" is-config="true" duration-ms="198" started-at="2021-03-20T02:04:01Z" finished-at="2021-03-20T02:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestngPractice.DataProvider -->
+      <class name="TestngPractice.LoginTest">
+        <test-method status="PASS" signature="LaunchDriver(java.lang.String)[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="LaunchDriver" is-config="true" duration-ms="2702" started-at="2021-03-20T02:04:01Z" finished-at="2021-03-20T02:04:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="login" duration-ms="18377" started-at="2021-03-20T02:04:04Z" finished-at="2021-03-20T02:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestngPractice.LoginTest@5e57643e]" name="teardown" is-config="true" duration-ms="4223" started-at="2021-03-20T02:04:23Z" finished-at="2021-03-20T02:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestngPractice.LoginTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="utlities.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="Regression1(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestngPractice.LoginTest">
+        <methods>
+          <include name="LaunchDriver"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestngPractice.LoginTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
